@@ -35,9 +35,13 @@ export default function Hero() {
           <button className="px-10 py-4 bg-[#708238] text-[#FDFEFB] rounded-xl">
             Book Consultation
           </button>
-          <button className="px-10 py-4 border-[#708238] border-[1px] text-[#708238] rounded-xl">
+          <a
+            target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScfl-s6_6Qv81IxVwXHzym6gWj5Q_4QHeOHGb9BKgdp44aLLA/viewform?usp=dialog"
+            className="px-10 py-4 border-[#708238] border-[1px] text-[#708238] rounded-xl"
+          >
             Take Diagnostic
-          </button>
+          </a>
         </div>
       </div>
     </motion.div>

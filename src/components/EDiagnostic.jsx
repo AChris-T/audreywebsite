@@ -11,9 +11,13 @@ export default function EDiagnostic() {
         <p className="text-center md:text-5xl text-2xl lg:w-[944px] han md:leading-14 w-full ">
           Transformational Leadership and Staff Retention Diagnostic Toolkit
         </p>
-        <button className="text-[#F6F6F6] mt-5 bg-[#708238] py-4 px-10 rounded-xl">
+        <a
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScfl-s6_6Qv81IxVwXHzym6gWj5Q_4QHeOHGb9BKgdp44aLLA/viewform?usp=dialog"
+          className="text-[#F6F6F6] mt-5 bg-[#708238] py-4 px-10 rounded-xl"
+        >
           Start now
-        </button>
+        </a>
         <div className="flex flex-col gap-5 items-center justify-center mt-20">
           <h3 className="han text-2xl font-bold text-[#708238]">
             What I will Cover{' '}
