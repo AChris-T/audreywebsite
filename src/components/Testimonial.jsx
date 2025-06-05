@@ -50,7 +50,7 @@ export default function Testimonial() {
           </div>
         </div>
       </div>
-      <div className="md:grid-cols-5 mt-15 gap-6 grid grid-cols-2">
+      <div className="md:grid-cols-5 mb-10 mt-15 gap-6 grid grid-cols-2">
         <div className="w-full py-5 px-5 flex flex-col rounded-xl justify-center items-center border-[1px] border-[#E5EBD1] gap-7">
           <h3 className="text-[#121212] font-semibold text-xl md:text-7xl han">
             95%
