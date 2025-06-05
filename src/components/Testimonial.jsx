@@ -1,21 +1,27 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import ceo from '../../src/assets/images/ceo2.png';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Testimonial() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   return (
     <motion.div
       ref={ref}
       initial={{ opacity: 0, y: 40, scale: 0.95 }}
-      animate={isInView ? { opacity: 1, y: 0, scale: 1 } : { opacity: 0, y: 40, scale: 0.95 }}
-      transition={{ 
-        duration: 0.6, 
+      animate={
+        isInView
+          ? { opacity: 1, y: 0, scale: 1 }
+          : { opacity: 0, y: 40, scale: 0.95 }
+      }
+      transition={{
+        duration: 0.6,
         ease: [0.22, 1, 0.36, 1], // Sharp, spring-like easing
-        scale: { duration: 0.4 }
+        scale: { duration: 0.4 },
       }}
       className="px-2 md:px-12"
     >
@@ -35,9 +41,12 @@ export default function Testimonial() {
             achieve remarkable growth and success. Here's what they have to say:
           </p>
           <div className="flex md:gap-6 flex-col items-center justify-center lg:justify-start md:flex-row gap-3">
-            <button className="px-10 py-4 bg-[#708238] text-[#FDFEFB] rounded-xl">
+            <Link
+              to={'/testimonials'}
+              className="px-10 py-4 bg-[#708238] text-[#FDFEFB] rounded-xl"
+            >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
       </div>

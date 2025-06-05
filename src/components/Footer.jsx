@@ -42,7 +42,7 @@ export default function Footer() {
         Contact Me
       </button>
       <h3 className="text-[#121212] text-sm">© 2025 Audrey Williams-Joseph</h3>
-      <div className=" w-full flex flex-col md:flex-row gap-10  justify-between px-2 md:px-12 items-center">
+      <div className=" w-full flex flex-col lg:flex-row gap-10  justify-between px-2 md:px-12 items-center">
         <div>
           <img src={logo} alt="" className="w-[300px] object-cover" />
         </div>

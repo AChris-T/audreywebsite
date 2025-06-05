@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import st from '../../src/assets/images/st.png';
 import bgn from '../../src/assets/images/bgn.png';
@@ -11,18 +12,22 @@ import { useRef } from 'react';
 
 export default function KeyNotes() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false, margin: "-100px" });
+  const isInView = useInView(ref, { once: false, margin: '-100px' });
 
   return (
     <motion.section
       ref={ref}
       id="keynote"
       initial={{ opacity: 0, y: 40, scale: 0.95 }}
-      animate={isInView ? { opacity: 1, y: 0, scale: 1 } : { opacity: 0, y: 40, scale: 0.95 }}
-      transition={{ 
-        duration: 0.6, 
+      animate={
+        isInView
+          ? { opacity: 1, y: 0, scale: 1 }
+          : { opacity: 0, y: 40, scale: 0.95 }
+      }
+      transition={{
+        duration: 0.6,
         ease: [0.22, 1, 0.36, 1],
-        scale: { duration: 0.4 }
+        scale: { duration: 0.4 },
       }}
     >
       <div className="px-2 md:px-12 flex flex-col  bg-[#F2F8F8] py-28">
@@ -44,7 +49,7 @@ export default function KeyNotes() {
               initiatives, departmental silos, and breakdowns in the leadership
               chain from top executives to frontline managers.
             </p>
-            <Link to={''} className="text-[#708238] mt-10">
+            <Link to={'/transformational'} className="text-[#708238] mt-10">
               Learn more
             </Link>
           </div>
@@ -64,7 +69,7 @@ export default function KeyNotes() {
               knowledge and service continuity. The diagnostic helps
               organisations identify the root causes of retention challenges.
             </p>
-            <Link to={''} className="text-[#708238] mt-10">
+            <Link to={'/staff-retention'} className="text-[#708238] mt-10">
               Learn more
             </Link>
           </div>
@@ -84,7 +89,10 @@ export default function KeyNotes() {
               create psychologically safe environments where teams can thrive,
               even under pressure.
             </p>
-            <Link to={''} className="text-[#708238] mt-10">
+            <Link
+              to={'/emotional-intelligence'}
+              className="text-[#708238] mt-10"
+            >
               Learn more
             </Link>
           </div>
@@ -102,7 +110,7 @@ export default function KeyNotes() {
               cultures where excellence is part of everyday operations rather
               than a special effort during inspections.
             </p>
-            <Link to={''} className="text-[#708238] mt-10">
+            <Link to={'/outstanding'} className="text-[#708238] mt-10">
               Learn more
             </Link>
           </div>
