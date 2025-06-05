@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.han {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+.who-container {
+  padding: 0 1rem;
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.who-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #121212;
+  text-align: center;
+}
+
+.who-subtitle {
+  color: #777777;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  gap: 2.5rem;
+  animation: scroll 20s linear infinite;
+}
+
+.marquee img {
+  height: 50px;
+  width: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
