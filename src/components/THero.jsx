@@ -14,9 +14,14 @@ export default function THero() {
         tools to implement vision, and if cross-departmental collaboration
         supports organisational goals.
       </p>
-      <Link to="" className="text-[#F6F6F6] bg-[#708238] py-4 px-10 rounded-xl">
+      <a
+        target="_blank"
+        href="https://calendly.com/bookings-audreywilliams-joseph/30min"
+        to=""
+        className="text-[#F6F6F6] bg-[#708238] py-4 px-10 rounded-xl"
+      >
         Book Keynote
-      </Link>
+      </a>
       <img
         src={tes}
         alt=""

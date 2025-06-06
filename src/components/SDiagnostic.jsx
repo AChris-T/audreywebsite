@@ -15,8 +15,8 @@ export default function SDiagnostic() {
           Transformational Leadership and Staff Retention Diagnostic Toolkit
         </p>
         <a
-          target='_blank'
-          href="https://docs.google.com/forms/d/e/1FAIpQLScfl-s6_6Qv81IxVwXHzym6gWj5Q_4QHeOHGb9BKgdp44aLLA/viewform?usp=dialog"
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfHJPmsdPgqvxfbCajkhkYZajE0g72r2ksvIMn7UZkT-qoXmA/viewform?usp=dialog"
           className="text-[#F6F6F6] mt-5 bg-[#708238] py-4 px-10 rounded-xl"
         >
           Start now
