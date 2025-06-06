@@ -21,11 +21,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div 
+    <div
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-white/80 backdrop-blur-md shadow-md' 
-          : 'bg-transparent'
+        isScrolled ? 'bg-white/80 backdrop-blur-md shadow-md' : 'bg-transparent'
       }`}
     >
       <div className="h-24 w-full flex justify-between px-2 md:px-12 items-center max-w-7xl mx-auto">
@@ -43,7 +41,10 @@ export default function Navbar() {
               >
                 About
               </a>
-              <Link to="" className="text-[#777] hover:text-[#708238] transition-colors cursor-pointer hidden md:flex">
+              <Link
+                to=""
+                className="text-[#777] hover:text-[#708238] transition-colors cursor-pointer hidden md:flex"
+              >
                 Diagnostic
               </Link>
               <a
@@ -65,7 +66,10 @@ export default function Navbar() {
             </>
           ) : (
             <>
-              <Link to="/" className="text-[#777] hover:text-[#708238] transition-colors cursor-pointer hidden md:flex">
+              <Link
+                to="/"
+                className="text-[#777] hover:text-[#708238] transition-colors cursor-pointer hidden md:flex"
+              >
                 Home
               </Link>
               <a
@@ -76,12 +80,13 @@ export default function Navbar() {
               </a>
             </>
           )}
-          <Link
-            to=""
+          <a
+            target="_blank"
+            href="https://calendly.com/bookings-audreywilliams-joseph/30min"
             className="text-[#F6F6F6] bg-[#708238] hover:bg-[#5a6a2d] transition-colors py-4 px-10 rounded-xl"
           >
             Book
-          </Link>
+          </a>
         </div>
       </div>
     </div>
