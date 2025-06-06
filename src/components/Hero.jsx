@@ -41,7 +41,7 @@ export default function Hero() {
           </a>
           <a
             target="_blank"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScfl-s6_6Qv81IxVwXHzym6gWj5Q_4QHeOHGb9BKgdp44aLLA/viewform?usp=dialog"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfHJPmsdPgqvxfbCajkhkYZajE0g72r2ksvIMn7UZkT-qoXmA/viewform?usp=dialog"
             className="px-10 py-4 border-[#708238] border-[1px] text-[#708238] rounded-xl"
           >
             Take Diagnostic
