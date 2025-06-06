@@ -32,9 +32,13 @@ export default function Hero() {
           achieve peak performance and foster meaningful connections{' '}
         </p>
         <div className="flex md:gap-6 flex-col items-center justify-center lg:justify-start md:flex-row gap-3">
-          <button className="px-10 py-4 bg-[#708238] text-[#FDFEFB] rounded-xl">
+          <a
+            target="_blank"
+            href="https://calendly.com/bookings-audreywilliams-joseph/30min"
+            className="px-10 py-4 bg-[#708238] text-[#FDFEFB] rounded-xl"
+          >
             Book Consultation
-          </button>
+          </a>
           <a
             target="_blank"
             href="https://docs.google.com/forms/d/e/1FAIpQLScfl-s6_6Qv81IxVwXHzym6gWj5Q_4QHeOHGb9BKgdp44aLLA/viewform?usp=dialog"

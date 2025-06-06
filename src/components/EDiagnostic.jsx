@@ -13,7 +13,7 @@ export default function EDiagnostic() {
         </p>
         <a
           target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLScfl-s6_6Qv81IxVwXHzym6gWj5Q_4QHeOHGb9BKgdp44aLLA/viewform?usp=dialog"
+          href="https://docs.google.com/forms/d/1TMmVB2FbZhtkCqnlBtU6__iBjNciaJqGbGEemNwcSOM/edit"
           className="text-[#F6F6F6] mt-5 bg-[#708238] py-4 px-10 rounded-xl"
         >
           Start now
