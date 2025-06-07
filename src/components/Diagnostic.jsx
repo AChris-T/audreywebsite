@@ -29,7 +29,7 @@ export default function Diagnostic() {
           <p className="text-center  md:w-[944px] han font-medium text-[#777777] w-full ">
             This keynote is ideal for leaders and managers at all levels, from
             emerging leaders to senior executives, across various industries. It
-            is particularly beneficial organizations seeking to:
+            is particularly beneficial organisations seeking to:
           </p>
         </div>
       </div>

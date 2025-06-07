@@ -9,13 +9,13 @@ export default function SKey() {
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         <div className="flex flex-5 border-[#E5EBD1] border-[1px] justify-center py-2 rounded-xl items-center text-lg text-[#121212]">
-          <User /> High Turnover Rates
+          <User /> High Staff Turnover Rates
         </div>
         <div className="flex flex-5 border-[#E5EBD1] border-[1px] justify-center py-2 rounded-xl items-center text-lg text-[#121212]">
-          <User /> High Turnover Rates
+          <User /> Low Employee Engagement
         </div>
         <div className="flex flex-5 border-[#E5EBD1] border-[1px] justify-center py-2 rounded-xl items-center text-lg text-[#121212]">
-          <User /> High Turnover Rates
+          <User /> Lack of Team Cohesion
         </div>
       </div>
     </div>

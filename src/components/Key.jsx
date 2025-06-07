@@ -43,12 +43,12 @@ export default function Key() {
               environment.{' '}
             </h3>
           </div>
-          <div className="flex items-center gap-2">
+          {/*     <div className="flex items-center gap-2">
             <Discovery />
             <h3 className="text-lg font-medium text-[#777777]">
               Actionable steps to prepare for and excel during inspections.
             </h3>
-          </div>
+          </div> */}
         </div>
       </div>
       <div>

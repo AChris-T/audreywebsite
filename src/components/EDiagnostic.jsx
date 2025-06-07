@@ -9,7 +9,7 @@ export default function EDiagnostic() {
           3-minute Diagnostic Assessment
         </h3>
         <p className="text-center md:text-5xl text-2xl lg:w-[944px] han md:leading-14 w-full ">
-          Transformational Leadership and Staff Retention Diagnostic Toolkit
+          Transformational Leadership Diagnostic Toolkit
         </p>
         <a
           target="_blank"
@@ -20,12 +20,12 @@ export default function EDiagnostic() {
         </a>
         <div className="flex flex-col gap-5 items-center justify-center mt-20">
           <h3 className="han text-2xl font-bold text-[#708238]">
-            What I will Cover{' '}
+            Who is this for?{' '}
           </h3>
           <p className="text-center  lg:w-[944px] han font-medium text-[#777777] w-full ">
-            This keynotes addresses the specific regulatory challenges faced by
-            educational institutions, providing practical strategies to manage
-            stress and maintain high standards
+            This keynote is ideal for leaders and managers at all levels, from
+            emerging leaders to senior executives, across various industries. It
+            is particularly beneficial organisations seeking to:
           </p>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function EDiagnostic() {
             Client’s Success Story
           </p>
           <h3 className="mt-[20px] han text-[#121212] font-bold md:text-3xl text-xl">
-            Reduced Turnover by 30% in 6 Months
+            Reduced Staff Turnover by 30% in 6 Months
           </h3>
           <p className="text-lg w-full mt-4 lg:w-[568px] font-medium text-[#777777]">
             A leading healthcare provider implemented our strategies and saw a

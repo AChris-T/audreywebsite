@@ -12,7 +12,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      id='about'
+      id="about"
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
       transition={{ duration: 0.6 }}
@@ -22,16 +22,16 @@ export default function About() {
         Why Audrey?
       </h3>
       <h3 className="md:text-[32px] text-[20px] font-bold">
-        Meet the Woman Changing How Care Works
+        Meet the Woman Helping Organisations unlock their excellence
       </h3>
       <p className="lg:w-[833px] w-full text-[#777777] mt-4">
         Audrey was a banking executive playing by corporate rules—until the day
         the care system failed her autistic son. Where others saw bureaucracy,
         she saw blueprints. Today, her Ofsted 'Outstanding'-rated facilities
-        prove that compassion isn't soft—it's the smartest strategy in the
-        room.Her approach combines insightful content with practical strategies,
-        empowering individuals to enhance their emotional intelligence and
-        achieve remarkable results.
+        prove that compassion isn't soft—it's the smartest strategy in the room.
+        Her approach combines insightful content with practical strategies,
+        empowering leaders to enhance their emotional intelligence and achieve
+        remarkable results.
       </p>
       <div className="flex flex-col md:flex-row gap-6 mt-14">
         <div className="border-[1px] flex flex-col gap-6 border-[#E5EBD1] w-full rounded-xl px-5 py-6">
@@ -66,7 +66,8 @@ export default function About() {
             </h3>
             <p className="text-[#777777]">
               Audrey's expertise drives positive change, enhancing emotional
-              intelligence and fostering a culture of empathy and understanding.
+              intelligence in leadership and fostering a culture of empathy and
+              understanding.
             </p>
           </div>
         </div>

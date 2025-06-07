@@ -12,7 +12,7 @@ export default function SDiagnostic() {
           3-minute Diagnostic Assessment
         </h3>
         <p className="text-center md:text-5xl text-2xl lg:w-[944px] han md:leading-14 w-full ">
-          Transformational Leadership and Staff Retention Diagnostic Toolkit
+          Staff Retention Diagnostic Toolkit
         </p>
         <a
           target="_blank"
@@ -23,12 +23,12 @@ export default function SDiagnostic() {
         </a>
         <div className="flex flex-col gap-5 items-center justify-center mt-20">
           <h3 className="han text-2xl font-bold text-[#708238]">
-            What I will Cover{' '}
+            Who is this for?{' '}
           </h3>
           <p className="text-center  lg:w-[944px] han font-medium text-[#777777] w-full ">
-            This keynotes addresses the specific regulatory challenges faced by
-            educational institutions, providing practical strategies to manage
-            stress and maintain high standards
+            This keynote is ideal for leaders and managers at all levels, from
+            emerging leaders to senior executives, across various industries. It
+            is particularly beneficial organisations seeking to:
           </p>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function SDiagnostic() {
           <div className="flex items-center gap-2">
             <Discovery />
             <h3 className="text-lg font-medium text-[#121212]">
-              High Turnover Rates{' '}
+              Reduce Staff Turnover Rates{' '}
             </h3>
           </div>
           <h3 className="text-[#777777]">
@@ -76,7 +76,7 @@ export default function SDiagnostic() {
           <div className="flex items-center gap-2 ">
             <Vect />
             <h3 className="text-lg font-medium text-[#121212]">
-              Career Development Limitations{' '}
+              Overcome Career Development Limitations{' '}
             </h3>
           </div>
           <h3 className="text-[#777777]">
