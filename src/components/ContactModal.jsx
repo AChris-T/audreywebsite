@@ -7,7 +7,7 @@ const ContactModal = ({ isOpen, onClose }) => {
   const contactDetails = {
     email: 'https://calendly.com/bookings-audreywilliams-joseph/30min',
     phone: '+447956130545',
-    address: '123 Business Avenue, Suite 100, New York, NY 10001',
+    address: 'The Granary,80 Abbey Road Barking Essex, IG117BT',
   };
 
   const handleCopy = async (text, field) => {
