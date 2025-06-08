@@ -13,7 +13,7 @@ export default function Who() {
     <div className="who-container">
       <h3 className="who-title">Who I Work With</h3>
       <p className="who-subtitle">
-        Trusted by leading organizations across healthcare and beyond
+        Trusted by leading organisations across healthcare and beyond
       </p>
       <div className="marquee-wrapper mt-20">
         <div className="marquee">

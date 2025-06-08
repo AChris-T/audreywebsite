@@ -33,7 +33,7 @@ export default function Footer() {
         className="bg-[#F2F8F8] h-full pt-28 px-2 md:px-12 flex flex-col items-center justify-center  gap-6 "
       >
         <h3 className="text-[#4A4A4A] text-[14px]">
-          UNLOCKING ORGANIZATIONAL EXCELLENCE
+          UNLOCKING ORGANISATIONAL EXCELLENCE
         </h3>
         <h3 className="han text-[#708238]  md:text-[54px] font-bold text-2xl">
           Request More Information

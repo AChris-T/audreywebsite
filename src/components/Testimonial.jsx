@@ -37,7 +37,7 @@ export default function Testimonial() {
             Transformative Impact{' '}
           </h3>
           <p className="text-[#777777] text-center lg:text-start lg:w-full">
-            Audrey's expertise has helped numerous organizations and individuals
+            Audrey's expertise has helped numerous organisations and individuals
             achieve remarkable growth and success. Here's what they have to say:
           </p>
           <div className="flex md:gap-6 flex-col items-center justify-center lg:justify-start md:flex-row gap-3">
