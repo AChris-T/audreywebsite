@@ -53,7 +53,7 @@ export default function About() {
               Tailored Workshops{' '}
             </h3>
             <p className="text-[#777777]">
-              Workshops are customized to meet the specific needs of your team,
+              Workshops are customised to meet the specific needs of your team,
               ensuring relevant and impactful learning experiences.
             </p>
           </div>
