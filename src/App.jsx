@@ -12,11 +12,13 @@ import Staff from './pages/Staff';
 import Emotional from './pages/Emotional';
 import Outstanding from './pages/Outstanding';
 import Testimonials from './pages/Testimonials';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="flex flex-col ">
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/transformational" element={<Transformational />} />
