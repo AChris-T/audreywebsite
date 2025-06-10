@@ -16,7 +16,7 @@ export default function SDiagnostic() {
         </p>
         <a
           target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfHJPmsdPgqvxfbCajkhkYZajE0g72r2ksvIMn7UZkT-qoXmA/viewform?usp=dialog"
+          href="https://forms.gle/fcTsCEdNjeb7VdCZ8"
           className="text-[#F6F6F6] mt-5 bg-[#708238] py-4 px-10 rounded-xl"
         >
           Start now

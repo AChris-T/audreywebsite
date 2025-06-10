@@ -17,7 +17,7 @@ export default function Diagnostic() {
         </p>
         <a
           target="_blank"
-          href="https://docs.google.com/forms/d/1gptgVlkLr4au-MQ6JlhT3kN9T0OF-81oB8IpbuF-Zzo/edit"
+          href="https://forms.gle/VHC2YXwHNP8W46GH9"
           className="text-[#F6F6F6] mt-5 bg-[#708238] py-4 px-10 rounded-xl"
         >
           Start now

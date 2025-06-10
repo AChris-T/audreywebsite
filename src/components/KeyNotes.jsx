@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import st from '../../src/assets/images/st.png';
-import bgn from '../../src/assets/images/bgn.png';
+import bgn from '../../src/assets/images/neww.png';
 import stt from '../../src/assets/images/stt.png';
 import sttt from '../../src/assets/images/sttt.png';
 import stttt from '../../src/assets/images/sttty.png';
@@ -120,7 +120,7 @@ export default function KeyNotes() {
       <img
         src={bgn}
         alt=""
-        className="object-cover h-[300px] md:h-full justify-center flex items-center w-full"
+        className="object-contain md:object-cover h-[300px] md:h-full justify-center flex items-center w-full"
       />
     </motion.section>
   );
