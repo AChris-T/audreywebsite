@@ -5,7 +5,9 @@ const ContactModal = ({ isOpen, onClose }) => {
   const [copiedField, setCopiedField] = useState(null);
 
   const contactDetails = {
-    email: 'https://calendly.com/bookings-audreywilliams-joseph/30min',
+    Email: 'bookings@audreywilliams-joseph.co.uk',
+    linkedin: 'http://linkedin.com/in/audrey-williams-joseph-cep-41901b354',
+    consultation: 'https://calendly.com/bookings-audreywilliams-joseph/30min',
     phone: '+447956130545',
     address: 'The Granary,80 Abbey Road Barking Essex, IG117BT',
   };

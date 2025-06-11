@@ -42,8 +42,9 @@ export default function About() {
               Engaging Keynotes
             </h3>
             <p className="text-[#777777]">
-              Audrey delivers captivating keynotes that resonate with audiences,
-              leaving a lasting impression and inspiring action.
+              As a Tedx Alumni Audrey delivers captivating keynotes that
+              resonate with audiences, leaving a lasting impression and
+              inspiring action.
             </p>
           </div>
         </div>
