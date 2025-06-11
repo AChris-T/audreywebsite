@@ -72,12 +72,12 @@ export default function Navbar() {
               >
                 Home
               </Link>
-              <a
-                to="#about"
+              <Link
+                to="/"
                 className="text-[#777] hover:text-[#708238] transition-colors cursor-pointer hidden md:flex"
               >
                 About
-              </a>
+              </Link>
             </>
           )}
           <a

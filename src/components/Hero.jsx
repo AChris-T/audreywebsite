@@ -28,7 +28,7 @@ export default function Hero() {
         </h3>
         <p className="text-[#777777] text-center lg:text-start lg:w-[600px]">
           Audrey Williams is a renowned speaker and expert in emotional
-          intelligence, dedicated to empowering individuals and organizations to
+          intelligence, dedicated to empowering individuals and organisations to
           achieve peak performance and foster meaningful connections{' '}
         </p>
         <div className="flex md:gap-6 flex-col items-center justify-center lg:justify-start md:flex-row gap-3">
