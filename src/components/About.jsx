@@ -26,10 +26,10 @@ export default function About() {
         Meet the Woman Helping Organisations unlock their excellence
       </h3>
       <p className="lg:w-[833px] w-full text-[#777777] mt-4">
-        Audrey was a banking executive playing by corporate rules—until the day
+        Audrey was a banking executive playing by corporate rules until the day
         the care system failed her autistic son. Where others saw bureaucracy,
-        she saw blueprints. Today, her Ofsted 'Outstanding'-rated facilities
-        prove that compassion isn't soft—it's the smartest strategy in the room.
+        she saw blueprints. Today, her Ofsted 'Outstanding' rated facilities
+        prove that compassion isn't soft it's the smartest strategy in the room.
         Her approach combines insightful content with practical strategies,
         empowering leaders to enhance their emotional intelligence and achieve
         remarkable results.

@@ -11,7 +11,7 @@ export default function THero() {
       <p className="text-center md:px-[76px] text-[#777777]">
         The diagnostic helps identify specific leadership gaps by examining how
         effectively change is communicated, whether middle management has the
-        tools to implement vision, and if cross-departmental collaboration
+        tools to implement vision, and if cross departmental collaboration
         supports organisational goals.
       </p>
       <a
