@@ -27,7 +27,7 @@ export default function Footer() {
         }
         transition={{
           duration: 0.6,
-          ease: [0.22, 1, 0.36, 1], // Sharp, spring-like easing
+          ease: [0.22, 1, 0.36, 1], 
           scale: { duration: 0.4 },
         }}
         className="bg-[#F2F8F8] h-full pt-28 px-2 md:px-12 flex flex-col items-center justify-center  gap-6 "

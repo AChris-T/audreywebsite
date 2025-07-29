@@ -39,9 +39,7 @@ export default function KeyNotes() {
             <img src={st} alt="" className="md:w-[581px] object-cover" />
           </div>
           <div className="flex  flex-col gap-3">
-            <h3 className="text-[#121212] text-lg ">
-              Transformational Leadership Assessment
-            </h3>
+            <h3 className="text-[#121212] text-lg ">The Soft Approach</h3>
             <p className="text-[#777777] md:w-[571px]">
               Transformational leadership challenges often manifest as
               disconnects between strategic vision and practical implementation.
@@ -103,7 +101,7 @@ export default function KeyNotes() {
           </div>
           <div className="flex  flex-col gap-3">
             <h3 className="text-[#121212] text-lg ">
-              Achieving "Outstanding" with Ofsted Frameworks{' '}
+              Making Outstanding Inevitable
             </h3>
             <p className="text-[#777777] md:w-[571px]">
               Organisations that excel in quality frameworks typically create
