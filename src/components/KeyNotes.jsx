@@ -58,7 +58,7 @@ export default function KeyNotes() {
           </div>
           <div className="flex  flex-col gap-3">
             <h3 className="text-[#121212] text-lg ">
-              Staff Retention & Engagement Challenges{' '}
+              The challenge of transformational leadership{' '}
             </h3>
             <p className="text-[#777777] md:w-[571px]">
               Staff retention and engagement represent critical indicators of
