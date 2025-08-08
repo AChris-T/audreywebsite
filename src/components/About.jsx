@@ -74,7 +74,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="  justify-center items-center flex mt-20 ">
+      <div className=" justify-center items-center flex mt-5 md:mt-20 ">
         <iframe
           title="vimeo-player"
           src="https://player.vimeo.com/video/1108416424?h=c8ebdfe93f"
