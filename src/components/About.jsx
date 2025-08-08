@@ -74,6 +74,20 @@ export default function About() {
           </div>
         </div>
       </div>
+      <div className="  justify-center items-center flex mt-20 ">
+        <div className="shadow-2xl md:w-[640px] w-full rounded-2xl">
+          <iframe
+            title="vimeo-player"
+            src="https://player.vimeo.com/video/1108416424?h=c8ebdfe93f"
+            width="100%"
+            height="360"
+            frameborder="0"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
     </motion.section>
   );
 }
