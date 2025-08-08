@@ -77,7 +77,7 @@ export default function About() {
       <div className=" justify-center items-center flex mt-5 md:mt-20 ">
         <iframe
           title="vimeo-player"
-          src="https://player.vimeo.com/video/1108416424?h=c8ebdfe93f"
+          src="https://player.vimeo.com/video/1108529328?h=a3555cb45a"
           width="100%"
           height="360px"
           frameborder="1"
